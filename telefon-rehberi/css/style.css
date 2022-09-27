@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-color: #ddd;
+    overflow: hidden;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-image: linear-gradient(to left, #542558, #411b33);
+    }
+}
+
+.giris-div {
+    margin: 0 auto;
+    padding: 8em 3em;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, #542558, #411b33);
+}
+
+.giris-input {
+    display: block;
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 0.75em;
+    padding: 0.25em;
+}
+
+.giris-input:hover, .giris-input:focus {
+    outline: none;
+}
+
+::placeholder { 
+    color: #fff;
+    opacity: 0.5; 
+}
+
+.giris-input:focus::placeholder {
+    color: transparent;
+}
+
+.giris-btn {
+    padding: 1em ;
+    font-size: 0.75rem;
+    font-weight: 900;
+    border: 0;
+    cursor: pointer;
+    background-color: #fff;
+    color: #9e46a5;
+    transition: background-color 250ms;
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 2em;
+}
+
+button:hover {
+    background-color:  #ceaed1;
+    cursor: pointer;
+}
+
+form {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 3.25em 0;
+}
+
+p {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    max-width: 90%;
+}
